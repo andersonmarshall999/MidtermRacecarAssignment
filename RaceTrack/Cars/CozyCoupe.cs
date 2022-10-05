@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace RaceTrack.RaceTrack.Cars
 {
-    public class Minivan : RaceCar
+    public class CozyCoupe : RaceCar
     {
-        public Minivan()
+        public CozyCoupe()
         {
-            Name = "Minivan";
-            TopSpeed = 80;
+            Name = "Little Tikes Cozy Coupe";
+            TopSpeed = 4;
         }
 
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} engine starts");
+            Console.WriteLine($"The {Name} is ready to roll!");
         }
         public override void StopEngine()
         {
-            Console.WriteLine($"The {Name} engine stops");
+            Console.WriteLine($"The {Name} rolls to a halt");
         }
     }
 }
